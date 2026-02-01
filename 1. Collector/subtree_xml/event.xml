@@ -1,0 +1,21 @@
+filter = """
+ <subscription-config xmlns="urn:ietf:params:xml:ns:yang:ietf-event-notifications">
+    <subscription>
+      <subscription-id/>
+      <stream/>
+      <filter/>
+      <filter-ref/>
+      <startTime/>
+      <stopTime/>
+      <receivers>
+        <receiver>
+          <address/>
+          <port/>
+        </receiver>
+      </receivers>
+      <source-interface/>
+      <source-vrf/>
+      <source-address/>
+    </subscription>
+  </subscription-config>
+"""
