@@ -6,8 +6,8 @@ import yaml #yaml to read the user credentials from a yaml file
 with open ("credintials.yaml", "r") as file: #
     data = yaml.safe_load(file) #Load the yaml file
 
-
-
+with open("subtree_xml/event.xml", "r") as file_xml:
+    filter = file_xml.read() #Read the filter xml file
 
 with manager.connect(**data["my_device"]) as m: #Connect to the device using the credentials from the yaml file
     result = m.get(filter=("subtree", filter)).xml

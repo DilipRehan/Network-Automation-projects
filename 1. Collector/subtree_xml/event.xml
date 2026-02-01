@@ -1,5 +1,4 @@
-filter = """
- <subscription-config xmlns="urn:ietf:params:xml:ns:yang:ietf-event-notifications">
+<subscription-config xmlns="urn:ietf:params:xml:ns:yang:ietf-event-notifications">
     <subscription>
       <subscription-id/>
       <stream/>
@@ -18,4 +17,3 @@ filter = """
       <source-address/>
     </subscription>
   </subscription-config>
-"""
