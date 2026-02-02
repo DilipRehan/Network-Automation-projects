@@ -2,7 +2,6 @@ from ncclient import manager #manager object to connec to the device
 from xml.dom import minidom #minidom to pretty print the xml output
 import yaml #yaml to read the user credentials from a yaml file
 
-
 with open ("credintials.yaml", "r") as file: #
     data = yaml.safe_load(file) #Load the yaml file
 
