@@ -1,0 +1,27 @@
+<routing xmlns="urn:ietf:params:xml:ns:yang:ietf-routing">
+    <routing-instance>
+      <name/>
+      <router-id/>
+      <description/>
+      <interfaces>
+        <interface>
+          <!-- # entries: 0.. -->
+        </interface>
+      </interfaces>
+      <routing-protocols>
+        <routing-protocol>
+          <type/>
+          <name/>
+          <description/>
+          <static-routes/>
+        </routing-protocol>
+      </routing-protocols>
+      <ribs>
+        <rib>
+          <name/>
+          <address-family/>
+          <description/>
+        </rib>
+      </ribs>
+    </routing-instance>
+  </routing>
