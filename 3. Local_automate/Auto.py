@@ -29,7 +29,7 @@ def human_readable_routing(xml_data):
         iface = route.find(".//v4:outgoing-interface", ns).text
         output.append(f"Static Route: {dest} → {iface}")
 
-    return "\n".join(output)
+    return "\n".join(output) #Join the output list into a single string
 
 
 # ---------------------------------------------------------
