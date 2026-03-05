@@ -12,7 +12,7 @@ def human_readable_routing(xml_data):
         "v4": "urn:ietf:params:xml:ns:yang:ietf-ipv4-unicast-routing"
     }
 
-    root = ET.fromstring(xml_data)
+    root = ET.fromstring(xml_data) #Parse the XML data
     output = []
 
     # Routing instance
